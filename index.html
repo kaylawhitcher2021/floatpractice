@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koala</title>
+    	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <style>
+        /* the styles for the elements */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-color:blue ;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 100%;
+            max-width: 960px;
+            width: 75%;
+            margin: 0 auto;
+            background-color: cornsilk;
+            border: 1px solid blue;
+        }
+        /* the style for links*/
+        a:link, a:visited{
+            text-decoration: none;
+        }
+        a:hover, a:focus{
+            text-decoration: underline;
+        }
+        /* the styles for the header*/
+        header{
+            margin: 0 0 2em 0;
+        }
+        header h1{
+            padding: 1em;
+            font-size: 200%;
+            font-variant: small-caps;
+            background-color: blue;
+            color: cornsilk;
+            text-align: center;
+        }
+        /* the styles for the main content */
+        main{
+            margin: 1em;
+            padding: 1em;
+        }
+        img {
+            max-width: 400px;
+            width: 100%;
+        }
+        .pimgLeft{
+            float: left;
+            padding: 0 1em 1em 0;
+        }
+        .pimgRight{
+            float: right;
+            padding: 0 0 1em 1em;
+        }
+        section {
+            clear: both;
+            padding-bottom: 1.5em;
+        }
+        /*the styles for the footer*/
+        footer{
+            clear: both;
+            padding: 2em;
+            font-size: 80%;
+            font-variant: small-caps;
+            background-color: cornsilk;
+            text-align: center;
+        }
+        /**************************************************
+        ***************************************************
+        *****                                         *****
+        *****               Media Queries             *****
+        *****                                         *****
+        *****                                         *****
+        *****                                         *****
+        ***************************************************
+        ***************************************************
+            /* moblie landscapes to tablet portrait to standard 960 */
+            @media only screen and (max-width: 959px){
+                html {
+                    background-color:  cornsilk;
+                }
+                body {
+                    border: none;
+                    width: 100%;
+                    font-size: 100%;
+                }
+                main{
+                    padding: 0;
+                    margin: 0;
+                }
+                img{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            /* mobile portrait to mobile lanscape*/
+            @media only screen and (max-width: 479px) {
+                body {font-size: 90%;}
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Koala</h1>
+    </header>
+    <main>
+
+    
+    <section>
+        <img class="pimgLeft" src="images/image_1.jpeg">
+        <p>
+            Often called a "bear" the Koala is not actually a bear. It is a actually a marsupial that is native to Australia. 
+            They have two opposing thumbs, and both there hands and feet have rough pads in order to grab onto branches. They also have two toes fused together on their feet, in which they use to comb their coarse wool like fur. There life span is 12 years in the wild and 16 years in captivity. They can also communicate with each other by either making a noise like a snore and then blech. 
+        </p>
+    <section>
+        <img class="pimgRight" src="images/image_2.jpeg">
+        <p>
+            Since koalas are marsupial they give birth to live young, newborn koalas are only the size of a broad bean, blind and hairless. The first six months are spent insid the mothers pounch. Over the course of two or three months it will cling to its mother's fur, returning to the pounch at night. 
+        </p>
+    </section>
+    <section>
+        <img class="pimgLeft" src="images/image_3.jpeg">
+        <p>
+            Much like the teenager that sleeps all day, koala's are nocturnal animals that sleep about 18 hours a day. They tuck themsleves into forks or nooks in trees. They only wake up during night to eat. The pregnancy lasts 35 days!  
+        </p>
+    </section>
+    <section>
+        <img class="pimgRight" src="images/image_4.jpeg">
+        <p>
+            Koala's develop a strong appetite, eating about one kilogram of eucalyputs leaves in day. Like a four year old though they are very picky in what leaves they eat. They will take the most nutritious and tastiest leaves from the tree they are on. Also koala's get most of there water off the leaves that they eat!
+        </p>
+    </section>
+    <section>
+        <img class="pimgLeft" src="images/image_5.jpeg">
+        <p>
+            Koalas have strong arms and legs and claws that help them move about the trees. Although very clumsy on the ground they are excellent swimmers. Most of the time though they are very similiar to a teenager who lays around all day and doesn't like to do things.  
+        </p>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Kayla Whitcher</p>
+    </footer>
+</body>
+</html>
